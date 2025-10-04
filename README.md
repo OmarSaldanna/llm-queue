@@ -122,6 +122,6 @@ DB_HOST="ip_o_host_de_la_db"
 DB_PORT="5432"
 
 # --- Configuración de la API del LLM ---
-LLM_API_URL="https://ai:8123/completion"
+LLM_API_URL="http: ...."
 LLM_API_KEY="tu_api_key_secreta"
 ```
