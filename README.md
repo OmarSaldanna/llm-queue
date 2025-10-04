@@ -110,3 +110,18 @@ INSERT INTO fila_llm_anahuac (prompt) VALUES ('Escribe un poema corto sobre la p
 ```
 
 El sistema recogerá y procesará este prompt automáticamente durante el próximo ciclo de ejecución programado.
+
+## 🔑 Archivo .env
+
+```bash
+# --- Configuración de la Base de Datos PostgreSQL ---
+DB_NAME="timeline"
+DB_USER="tu_usuario_de_db"
+DB_PASSWORD="tu_contraseña_de_db"
+DB_HOST="ip_o_host_de_la_db"
+DB_PORT="5432"
+
+# --- Configuración de la API del LLM ---
+LLM_API_URL="https://ai:8123/completion"
+LLM_API_KEY="tu_api_key_secreta"
+```
